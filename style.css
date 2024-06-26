@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter",sans-serif;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 100vh;
+  font-weight: 500;
+}
+
+#start,#btn{
+  outline: none;
+  border: 0;
+  background: rebeccapurple;
+  font-size: 16px;
+  color: #fff;
+  padding: 12px 35px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+#text{
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+#result{
+  margin-top: 16px;
+  text-align: center;
+  padding: 0 20px;
+}
